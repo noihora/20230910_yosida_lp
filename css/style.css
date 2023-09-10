@@ -68,7 +68,14 @@ a {
 }
 
 .list{
-    margin: 50% 15% auto;
+    margin: 50% 25% 5% 25% ;
+    height: 580px;
+}
+
+.list__border{
+    border-top: 3px solid #CCC;
+    border-bottom: 3px solid #CCC;
+    height: 90%;
 }
 
 .list__text{
@@ -97,9 +104,6 @@ a {
     padding: 20px 0px;
 }
 
-.news-list .item:first-child a{
-    border-top: 3px solid #CCC;
-  }
 
 .news-list .item .date{
     margin: 0;
@@ -158,13 +162,12 @@ a {
 
 .description__about{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .description__detail{
     opacity:0.5;
     font-size: 15px;
-    margin: 10px 20% auto;
     line-height: 25px;
     font-weight:bold;  
 }
@@ -172,19 +175,20 @@ a {
 .description__detail__two{
     opacity:0.5;
     font-size: 15px;
-    margin: 45px 20% auto;
+    margin: 10% auto;
     line-height: 25px;
     font-weight:bolder;  
 }
 
 .description__img img{
     margin: auto;    
-    width: 400px;
+    width: 100%;
     height: 300px;
 }
 
 .service{
-    height: 600px;
+    height: 680px;
+    width: 100%;
 }
 
 .service__text{
@@ -302,7 +306,7 @@ a {
 
 .blog-class{
     background-color: #F5F5F5;
-    height: 550px;
+    height: 600px;
 }
 
 .blog__text{
@@ -519,7 +523,7 @@ a {
 .content-overview__text{
     color: #C71585;
     font-family: 'Kalam', cursive;
-    margin: 40px 20% auto;
+    margin: 40px 25% auto;
 }
 
 .content-overview__titel{
@@ -527,12 +531,12 @@ a {
     line-height: 70px;
     font-size: 25px;
     font-weight: bolder;
-    margin: 0px 20% auto;
+    margin: 0px 25% auto;
 }
 
 table {
-    width: 60%;
-    margin: 0px 0px 0px 240px;
+    width: 50%;
+    margin: 0px 25% auto;
     border-collapse: collapse;
     }
 
@@ -570,7 +574,7 @@ table th {
 .box-work__titel{
     position:absolute;
     top: 50%;
-    left: 35%;
+    left: 50%;
     font-size: 30px;
     color: #000;
     z-index: 1;
@@ -588,7 +592,7 @@ table th {
 .box-work__titel__two{
     position:absolute;
     top: 50%;
-    left: 35%;
+    left: 50%;
     font-size: 30px;
     color: #000;
     z-index: 1;
