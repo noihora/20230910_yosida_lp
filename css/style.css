@@ -64,10 +64,11 @@ a {
     position: absolute;
     margin: 0px  0px 0px 35%;
     z-index: 0;
+    width: 65%;
 }
 
 .list{
-    margin: 750px 0px 0px 15%;
+    margin: 50% 15% auto;
 }
 
 .list__text{
@@ -85,8 +86,6 @@ a {
 
 .news-list{
     list-style: none outside;
-    margin: -365px -370px;
-    padding: 370px  50% 0px 335px;
 }
 
 .news-list .item a{
@@ -137,16 +136,14 @@ a {
 }
 
 .description{
-    margin: 500px 0px 0px;
-    height: 440px;
-    width: 100%;
+    height: 450px;
     background-color:#F5F5F5
 }
 
 .description__text{
     color: #C71585;
     font-family: 'Kalam', cursive;
-    margin: 0px;
+    padding: 2% 0px 0px 0px;
     text-align:center
 }
 
@@ -157,6 +154,11 @@ a {
     font-weight: bolder;
     margin: 0px;
     text-align: center;
+}
+
+.description__about{
+    display: flex;
+    justify-content: center;
 }
 
 .description__detail{
@@ -176,9 +178,13 @@ a {
 }
 
 .description__img img{
-    margin: -190px 55% auto;    
+    margin: auto;    
     width: 400px;
     height: 300px;
+}
+
+.service{
+    height: 600px;
 }
 
 .service__text{
@@ -198,16 +204,16 @@ a {
 .service__content__one{
     position: relative;
     top: 20px;
-    left: 300px;
+    left: 10%;
     background:#C71585;
-    width: 450PX;
-    height: 350px;
+    width: 40%;
+    height: 500px;
 }
 
 .service__about__one {
     position:absolute;
-    top:60%;
-    left:180px;
+    top: 60%;
+    left: 40%;
     font-size: 20px;
     font-weight: bolder;
     color: #FFFFFF;
@@ -216,7 +222,7 @@ a {
 .service__work__one{
     position:absolute;
     top:70%;
-    left:20px;
+    left:10%;
     line-height: 25px;
     color: #FFFFFF;
 }
@@ -230,17 +236,17 @@ a {
 
 .service__content__two{
     position: relative;
-    top: -330px;
-    left: 750px;
+    top: -480px;
+    left: 50%;
     background:#FF69B4;
-    width: 450PX;
-    height: 175px;
+    width: 40%;
+    height: 250px;
 }
 
 .service__about__two {
     position:absolute;
     top:20%;
-    left:180px;
+    left:40%;
     font-size: 20px;
     font-weight: bolder;
     color: #FFFFFF;
@@ -249,7 +255,7 @@ a {
 .service__work__two{
     position:absolute;
     top:40%;
-    left:180px;
+    left:40%;
     line-height: 20px;
     color: #FFFFFF;
 }
@@ -263,17 +269,17 @@ a {
 
 .service__content__three{
     position: relative;
-    top: -330px;
-    left: 750px;
+    top: -480px;
+    left: 50%;
     background:#FFC0CB;
-    width: 450PX;
-    height: 175px;
+    width: 40%;
+    height: 250px;
 }
 
 .service__about__three {
     position:absolute;
     top:20%;
-    left:180px;
+    left:40%;
     font-size: 20px;
     font-weight: bolder;
     color: #FFFFFF;
@@ -282,7 +288,7 @@ a {
 .service__work__three{
     position:absolute;
     top:40%;
-    left:180px;
+    left:40%;
     line-height: 20px;
     color: #FFFFFF;
 }
@@ -296,15 +302,13 @@ a {
 
 .blog-class{
     background-color: #F5F5F5;
-    margin: -300px 0px;
-    width: auto;
     height: 550px;
 }
 
 .blog__text{
     color: #C71585;
     font-family: 'Kalam', cursive;
-    margin: 40px 20% auto;
+    padding: 2% 10%;
 }
 
 .blog__title{
@@ -312,17 +316,20 @@ a {
     line-height: 70px;
     font-size: 25px;
     font-weight: bolder;
-    margin: 0px 20% auto;
+    margin: -20PX 10% auto;
 }
 
 .blog__card {
-    width: 300px;
-    height: 300px;
-    margin: 20px 0px 0px 300px;
+    width: 30%;
+    margin: 20px 0px 0px 0px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius:30px
   }
   
+.blog__card__img{
+    position: relative;
+}
+
   .blog__card__img img {
     width: 100%;
     border-top-left-radius:30px;
@@ -351,7 +358,7 @@ a {
     color: #fff;
     font-size: 20px;
     position: absolute;
-    left: 300px;
+    left: 0px;
     border-top-left-radius: 30px
   }
   
@@ -373,9 +380,8 @@ a {
   }
 
   .blog__card__two {
-    width: 300px;
-    height: 300px;
-    margin: 20px 0% auto;
+    width: 30%;
+    margin: 20px 0PX 0px 0px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius:30px;
     position: relative;
@@ -431,9 +437,8 @@ a {
   }
 
   .blog__card__three {
-    width: 300px;
-    height: 300px;
-    margin: 20px 270px 0px 0px;
+    width: 30%;
+    margin: 20px 0px 0px 0px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius:30px;
     position: relative;
@@ -491,6 +496,8 @@ a {
   .blog-flex{
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: auto;
   }
 
   .blog__btn {
@@ -506,8 +513,6 @@ a {
 }
 
 .content-overview{
-    margin: 370px 100px auto;
-    width: auto;
     height: 200px;
 }
 
@@ -596,10 +601,11 @@ table th {
 }
 
 .form-text{
-    margin: 40px 0px  0px 37%;
     font-size: 20px;
     font-weight: bold;
-    opacity: 0.6;;
+    opacity: 0.6;
+    margin: 40px auto;
+    text-align:center;    
 }
 .form__line{
     color: #C71585;
@@ -609,7 +615,6 @@ table th {
 
 .btns-submit{
     display: inline-block;
-	margin: 30px 0px 0px 40%;
     text-align: center;
 	padding: 30px 30px;
 	color: #fff;
@@ -629,4 +634,9 @@ table th {
 .footer-text{
     text-align:center;
     opacity: 0.6;
+}
+
+.form__btns{
+    width: 300px;
+    margin: 20px auto;
 }
