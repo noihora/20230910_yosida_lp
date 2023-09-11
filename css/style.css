@@ -234,13 +234,13 @@ a {
 }
 
 .service__img__one{
-    margin: 2% 33% auto;    
+    margin: 5% 30% auto;    
 }
 
 .service__img__one img{
     mix-blend-mode: multiply;
     width: 100%;
-    margin: 5% auto;
+    height: 150px;
 }
 
 .service__content__two{
@@ -259,6 +259,7 @@ a {
     font-size: 120%;
     font-weight: bolder;
     color: #FFFFFF;
+    margin: 0% 0% 0% -48px
 }
 
 .service__work__two{
@@ -268,15 +269,17 @@ a {
     line-height: 25px;
     font-size: 100%;
     color: #FFFFFF;
+    margin: 0% 0% 0% -48px;
 }
 
 .service__img__two{
-    margin: 3% 65% 4% 0%;
+    margin: 4% 65% 0% 0%;
 }
 
 .service__img__two img{
     mix-blend-mode: multiply;
-    width: 100%;
+    width: 80%;
+    height: 150px;
 }
 
 .service__content__three{
@@ -295,6 +298,7 @@ a {
     font-size: 120%;
     font-weight: bolder;
     color: #FFFFFF;
+    margin: 0% 0% 0% -48px;
 }
 
 .service__work__three{
@@ -304,6 +308,7 @@ a {
     line-height: 25px;
     font-size: 100%;
     color: #FFFFFF;
+    margin: 0% 0% 0% -48px;
 }
 
 .service__img__three{
@@ -312,7 +317,8 @@ a {
 
 .service__img__three img{
     mix-blend-mode: multiply;
-    width: 100%;
+    width: 80%; 
+    height: 150px;
 }
 
 .blog-class{
